@@ -1,0 +1,16 @@
+.vscode/
+
+
+.DS_Store
+Thumbs.db
+
+
+*.log
+
+*.tmp
+
+.env
+.env.local
+config.local.php
+/vendor/
+/node_modules/

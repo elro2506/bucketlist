@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/ronda.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* Navigation */
+header {
+    background-color: #0c310f;
+    padding: 20px;
+}
+
+nav {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #82fa92;
+}
+
+
+main {
+    width: calc(100% - 40px);
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    flex: 1;
+}
+
+main p {
+    color: black;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin: 0 0 30px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin: 30px 0 10px;
+}
+
+p {
+    color: #475569;
+}
+
+
+footer {
+    background-color: #0c310f;
+    text-align: left;
+    padding: 15px 20px;
+}
+
+.footer-size {
+    width: 900px;
+    margin: 0 auto;
+}
+footer p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Mobilanpassning */
+@media (max-width: 600px) {
+    header {
+        padding: 16px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+
+    main {
+        width: calc(100% - 24px);
+        margin: 20px auto;
+        padding: 24px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+}
