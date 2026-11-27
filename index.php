@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="sv">
 
@@ -11,9 +12,7 @@
 <body>
     <header>
         <nav>
-            <a href="index.php">Startsida</a>
-            <a href="bucketlist.php">Bucketlist</a>
-            <a href="ai.php">AI</a>
+          <?php include("menu.php"); ?>
         </nav>
     </header>
     <main>

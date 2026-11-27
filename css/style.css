@@ -43,13 +43,17 @@ nav a:hover {
     color: #82fa92;
 }
 
+.bucketlist-items p{
+    line-height: 0.6;
+}
+
 
 main {
     width: calc(100% - 40px);
     max-width: 900px;
     margin: 40px auto;
     padding: 40px;
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     flex: 1;
@@ -91,6 +95,47 @@ footer p {
     font-size: 1.2rem;
     color: white;
 }
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/*Formuläret*/
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+   width: 300px;
+}
+
+label {display: block;}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+
 
 /* Mobilanpassning */
 @media (max-width: 600px) {
